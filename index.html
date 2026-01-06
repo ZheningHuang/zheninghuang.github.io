@@ -54,9 +54,10 @@
                 <td style="padding:20px;width:100%;vertical-align:middle">
                   <h2>News</h2>
                   <ul>
+                      <li> <b>[Dec 2025]</b> We released <a href="https://zheninghuang.github.io/Space-Time-Pilot/">SpaceTimePilot</a>. Check out the <a href="https://zheninghuang.github.io/Space-Time-Pilot/#video">video</a> and <a href="https://zheninghuang.github.io/Space-Time-Pilot/">webpage</a>. SpaceTimePilot disentangles space and time in video diffusion model, for implicit 4D reconstruction and exploration.</li>
                       <li> <b>[Oct 2025]</b> Fortunate to receive the NeurIPS 2025 Scholar Award! Grateful for the support. </li>
                       <li> <b>[Sep 2025] </b> <a href="https://litereality.github.io/">LiteReality</a> is accepted at NeurIPS 2025! Thanks to all the collaborators. </li>
-                      <li> <b>[July 2025]</b> We released <a href="https://litereality.github.io/">LiteReality</a>, finally! Check out the <a href="https://www.youtube.com/watch?v=8QwOQn6kG9w">video</a> and <a href="https://litereality.github.io/">webpage</a>. Working on producing a good <a href="https://github.com/LiteReality/LiteReality">open source codebase</a> for this!</li>
+                      <li> <b>[July 2025]</b> We released <a href="https://litereality.github.io/">LiteReality</a>. Check out the <a href="https://www.youtube.com/watch?v=8QwOQn6kG9w">video</a> and <a href="https://litereality.github.io/">webpage</a>. Working on producing a good <a href="https://github.com/LiteReality/LiteReality">open source codebase</a> for this!</li>
                       <li> <b>[June 2025]</b> Started internship at <a href="https://research.adobe.com/">Adobe Research</a>, working with <a href="https://scholar.google.com/citations?user=LphRgywAAAAJ&hl=en">Chun-Hao Huang</a>. Amazing experience so far!</li>
                       <li> <b>[July 2024]</b> OpenIns3D is accepted at ECCV 2024. Thanks to all the collaborators.</li>
                       <li> <b>[April 2024]</b> Attended <a href="https://www.bmva.org/meetings/24-04-24-Multimodal%20Learning.html">BMVA symposium on Multimodal Learning</a> in London. OpenIns3D got the <strong>Best Paper Award!</strong> </li>
@@ -86,6 +87,41 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+
+    <tr onmouseout="final_teaser_stop()" onmouseover="final_teaser_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src='images/final_teaser.png' width=100% id="final_teaser_img">
+        </div>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://zheninghuang.github.io/Space-Time-Pilot/">
+          <span class="papertitle">SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time</span>
+        </a>
+        <br>
+        <strong>Zhening Huang</strong>,
+        <a href="https://hyeonhojeong.github.io/">Hyeonho Jeong</a>, 
+        <a href="https://xuelin-chen.github.io/">Xuelin Chen</a>, 
+        <a href="https://yulia.graphics/">Yulia Gryaditskaya</a>, 
+        <a href="https://www.tuanfeng.wang/">Tuanfeng Y. Wang</a>, 
+        <a href="http://sigproc.eng.cam.ac.uk/Main/JL">Joan Lasenby</a>, 
+        <a href="https://scholar.google.com/citations?user=LphRgywAAAAJ&hl=en">Chun-Hao Huang</a>
+    
+        <p style="margin-bottom: 10px; font-style: italic; color: #2E86AB;">
+          <strong>2025 Arxiv</strong>
+        </p>
+
+          
+        <a href="https://zheninghuang.github.io/Space-Time-Pilot/" style="font-weight:500; color:#2E86AB;">Project Page</a> /
+        <a href="https://arxiv.org/abs/2512.25075" style="font-weight:500; color:#2E86AB;" target="_blank">Paper</a> /
+        <a href="https://zheninghuang.github.io/Space-Time-Pilot/#video" style="font-weight:500; color:#2E86AB;">Video</a> /
+        <a href="https://github.com/ZheningHuang/SpaceTimePilot" style="font-weight:500; color:#2E86AB;" target="_blank" title="github">GitHub</a>
+        <a href="https://github.com/ZheningHuang/SpaceTimePilot" target="_blank" style="vertical-align: middle; margin-left: 6px;"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ZheningHuang/SpaceTimePilot?style=social"></a>
+        <p></p>
+        <p>
+          TLDR: SpaceTimePilot disentangles space and time in video diffusion model for controllable generative rendering. Given a single input video of a dynamic scene, SpaceTimePilot freely steers both camera viewpoint and temporal motion within the scene, enabling freely exploration across the 4D space–time domain.</p>
+      </td>
+    </tr>
 
     <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
@@ -175,6 +211,14 @@
       </tr>
     </table>
   </body>
+  <script>
+    function final_teaser_start() {
+      document.getElementById('final_teaser_img').src = 'images/final_teaser.gif';
+    }
+    function final_teaser_stop() {
+      document.getElementById('final_teaser_img').src = 'images/final_teaser.png';
+    }
+  </script>
 </html>
 
 <!-- redeploy trigger -->
