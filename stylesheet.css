@@ -142,6 +142,7 @@ td { padding: 0; }
 .name { margin: 0 0 24px; font-size: 38px; font-weight: 700; letter-spacing: -1.2px; }
 .portrait { display: block; flex: 0 0 210px; padding-top: 56px; }
 .portrait img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 50%; }
+.portrait .location { margin: 14px 0 0; color: var(--muted); font-size: 13px; line-height: 1.5; text-align: center; }
 
 .availability {
   margin: 22px 0 20px;
